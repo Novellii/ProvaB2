@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+#BlocoQuestões {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#BlocoSegundaQuestão {
+    display: flex;
+}
+
+#BotãoGeral {
+    margin-top: 20px;
+    height: 150px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(48, 182, 192);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+#BotãoEspecífico{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(48, 58, 192);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: larger;
+}
+
+p {
+    color: white;
+}
+
+#BotãoEspecífico:hover {
+    background-color: red;
+}
+
+#BotãoGeral:hover {
+    background-color: slateblue;
+}
